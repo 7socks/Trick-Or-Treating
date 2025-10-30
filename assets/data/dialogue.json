@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "fall_28": "I hope I get lots of candy!"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "Entries": {
+        "fall_28": "Do you like my costume? I made it myself."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        "fall_28": "I'm a tiger! Rawr!"
+      }
+    }
+  ]
+}

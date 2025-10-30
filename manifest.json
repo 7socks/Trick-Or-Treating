@@ -1,0 +1,11 @@
+{
+  "Name": "Trick Or Treating",
+  "Author": "7socks",
+  "Version": "1.0.0",
+  "Description": "Adds a trick-or-treating festival on Fall 28.",
+  "UniqueID": "7socks.TrickOrTreat",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

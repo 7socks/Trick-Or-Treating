@@ -1,0 +1,173 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Objects",
+      "FromFile": "assets/sprites/objects.png"
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_CandyApple": {
+          "DisplayName": "Candy Apple",
+          "Description": "An apple dipped in red candy and served on a stick.",
+          "Type": "Basic",
+          "Price": 150,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 7,
+          "Edibility": 45,
+          "ContextTags": ["color_red"]
+        },
+        "{{ModId}}_CandyCorn": {
+          "DisplayName": "Candy Corn",
+          "Description": "A classic fall treat with a sweet, buttery flavor.",
+          "Type": "Basic",
+          "Price": 20,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 0,
+          "Edibility": 6,
+          "ContextTags": ["color_orange"]
+        },
+        "{{ModId}}_CaramelCandy": {
+          "DisplayName": "Caramel Candy",
+          "Description": "A simple hard candy with a caramel flavor.",
+          "Type": "Basic",
+          "Price": 30,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 2,
+          "Edibility": 8,
+          "ContextTags": ["color_brown"]
+        },
+        "{{ModId}}_ChocolateEyeball": {
+          "DisplayName": "Chocolate Eyeball",
+          "Description": "Once you unwrap it, it's just a chocolate ball.",
+          "Type": "Basic",
+          "Price": 25,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 8,
+          "Edibility": 6,
+          "ContextTags": ["color_white"]
+        },
+        "{{ModId}}_FudgeNougat": {
+          "DisplayName": "Fudge Nougat",
+          "Description": "A chewy, fudgy bar mixed with nuts.",
+          "Type": "Basic",
+          "Price": 30,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 6,
+          "Edibility": 10,
+          "ContextTags": ["color_brown"]
+        },
+        "{{ModId}}_GummySpider": {
+          "DisplayName": "Gummy Spider",
+          "Description": "Wriggly, jiggly, and pretty tasty.",
+          "Type": "Basic",
+          "Price": 25,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 9,
+          "Edibility": 6,
+          "ContextTags": ["color_purple"]
+        },
+        "{{ModId}}_JojaBar": {
+          "DisplayName": "Joja Bar",
+          "Description": "Marketed as a once-in-a-lifetime chocolate experience sold in stores near you.",
+          "Type": "Basic",
+          "Price": 10,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 3,
+          "Edibility": 7,
+          "ContextTags": ["color_blue", "color_brown"],
+          "Buffs": [
+            {
+              "Id": "JojaBar1",
+              "Duration": 30,
+              "BuffId": null,
+              "IconTexture": "Tilesheets/BuffsIcons",
+              "IconSpriteIndex": 9,
+              "CustomAttributes": {
+                "Speed": 1
+              }
+            }
+          ]
+        },
+        "{{ModId}}_RedSucker": {
+          "DisplayName": "Red Sucker",
+          "Description": "Packs a fruity punch and dyes your mouth red for a vampiric effect.",
+          "Type": "Basic",
+          "Price": 30,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 5,
+          "Edibility": 8,
+          "ContextTags": ["color_red"]
+        },
+        "{{ModId}}_SaltwaterTaffy": {
+          "DisplayName": "Saltwater Taffy",
+          "Description": "A creamy, chewy candy popular on the seaside. This one is pumpkin flavored with a jack-o-lantern design.",
+          "Type": "Basic",
+          "Price": 50,
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": 1,
+          "Edibility": 12,
+          "ContextTags": ["color_orange"]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "{{ModId}}_CandyApple": "613 1 245 1/1 1/{{ModId}}_CandyApple/none/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Universal_Like"],
+          "Value": "{{ModId}}_CandyApple {{ModId}}_CaramelCandy {{ModId}}_FudgeNougat {{ModId}}_RedSucker {{ModId}}_SaltwaterTaffy {{ModId}}_ChocolateEyeball {{ModId}}_GummySpider",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Universal_Neutral"],
+          "Value": "{{ModId}}_CandyCorn {{ModId}}_JojaBar",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Fields", "Abigail", "3"],
+          "Value": "{{ModId}}_CandyCorn",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Fields", "Abigail", "5"],
+          "Value": "{{ModId}}_GummySpider",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Fields", "Gus", "3"],
+          "Value": "{{ModId}}_CandyCorn",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Fields", "Harvey", "5"],
+          "Value": "{{ModId}}_CandyCorn {{ModId}}_CaramelCandy {{ModId}}_FudgeNougat {{ModId}}_RedSucker {{ModId}}_SaltwaterTaffy {{ModId}}_ChocolateEyeball {{ModId}}_GummySpider",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Fields", "Lewis", "3"],
+          "Value": "{{ModId}}_CandyCorn",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Abigail",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 SeedShop 11 5 0/1600 Town 25 64 2 \"Strings\\TrickOrTreat:Abigail\"/2200 SeedShop 1 9 3 abigail_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alex",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "MAIL saloonSportsRoom/GOTO {{ModId}}_TrickOrTreating_normal/800 Town 64 64 2 alex_football/1100 Saloon 32 7 0 \"Strings\\schedules\\Alex:Sun.000\"/1500 Town 50 68 1/1540 Town 34 73 3 \"Strings\\TrickOrTreat:Alex\"/2100 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+        "{{ModId}}_TrickOrTreating_normal": "800 Town 64 64 2 alex_football/1300 JoshHouse 14 5 2 alex_lift_weights/1540 Town 34 73 3 \"Strings\\TrickOrTreat:Alex\"/2100 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Caroline",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 SeedShop 22 5 2/1040 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1330 SeedShop 15 23 0/1600 Town 41 58 2 \"Strings\\TrickOrTreat:Caroline\"/2200 SeedShop 27 7 1/2330 SeedShop 25 4 1 caroline_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Clint",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "850 Blacksmith 3 13 2/1600 Town 37 71 3 \"Strings\\TrickOrTreat:Clint\"/2200 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Demetrius",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "750 ScienceHouse 29 9 0/1100 Mountain 45 8 demetrius_notes/1530 Mountain 9 27 2 \"Strings\\TrickOrTreat:Demetrius\"/2200 ScienceHouse 15 4 0/2330 ScienceHouse 19 4 11 demetrius_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Elliott",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1500 Beach 48 11 2 \"Strings\\TrickOrTreat:Elliott\"/2200 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Emily",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 HaleyHouse 16 5 2/1200 HaleyHouse 3 16 0/1600 Town 23 90 2 \"Strings\\TrickOrTreat:Emily\"/2130 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Evelyn",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 Town 36 78 3/1540 Town 56 64 2 \"Strings\\TrickOrTreat:Evelyn\"/2000 JoshHouse 4 17 0 square_3_1_0/2130 JoshHouse 2 5 1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Gus",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "MAIL saloonSportsRoom/GOTO {{ModId}}_TrickOrTreating_normal/800 Saloon 16 4 2 gus_sit_down/1140 Saloon 34 8 0 \"Strings\\schedules\\Gus:Sun.000\"/1500 Saloon 12 18 0/1600 Town 43 72 2 \"Strings\\TrickOrTreat:Gus\"/2200 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep",
+        "{{ModId}}_TrickOrTreating_normal": "800 Saloon 16 4 2 gus_sit_down/1200 Saloon 14 18 2 gus_clean/1600 Town 43 72 2 \"Strings\\TrickOrTreat:Gus\"/2200 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Haley",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1530 Town 32 73 1 \"Strings\\TrickOrTreat:Haley/2100 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Harvey",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 46 102 2/1530 Town 34 57 2 \"Strings\\TrickOrTreat:Harvey\"/2200 HarveyRoom 13 4 1 harvey_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jas",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 AnimalShop 7 5 0/1100 AnimalShop 17 15 3 jas_read/1500 AnimalShop 17 15 3/1600 Forest 101 34 1/1610 Town 9 88 0/1620 Town 23 91 0/1630 Beach 48 13 0/1640 Beach 26 20 3/1650 Town 56 88 1/1700 Town 56 65 0/1710 Town 41 59 0/1720 Town 34 59 0/1730 Town 43 73 0/1740 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Jodi",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 SamHouse 6 5 0 jodi_dishes/900 SamHouse 5 5 0/1000 SeedShop 38 20 0/1400 SeedShop 2 20 3/1500 Town 9 86 2 \"Strings\\TrickOrTreat:Jodi\"/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Kent",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "MAIL saloonSportsRoom/GOTO {{ModId}}_TrickOrTreating_normal/800 SamHouse 8 5 3/830 SeedShop 36 20 0/1110 Saloon 35 8 0/1500 Town 8 86 2/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep",
+        "{{ModId}}_TrickOrTreating_normal": "800 SamHouse 8 5 3/1010 SeedShop 36 20 0/1400 SeedShop 5 19 0/1500 Town 9 86 2/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Leah",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1500 LeahHouse 13 5 1/1550 Forest 104 34 3 \"Strings\\TrickOrTreat:Leah\"/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lewis",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 ManorHouse 8 5 0/930 Town 62 88 0/1020 Town 65 86 3 lewis_garden/1110 Town 30 56 2/1510 Town 58 88 3 \"Strings\\TrickOrTreat:Lewis\"/2200 ManorHouse 22 4 1 lewis_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Marnie",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1600 Forest 90 17 2 \"Strings\\TrickOrTreat:Marnie\"/2200 AnimalShop 17 8 1/2300 AnimalShop 12 5 3 marnie_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Maru",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1330 Town 43 77 2 maru_sit_down/1600 Town 56 88 1/1610 Beach 47 12 1/1620 Beach 25 19 2/1630 Town 44 73 3/1640 Town 56 65 0/1650 Town 42 59 0/1700 Town 34 58 0/1710 Town 23 91 0/1720 Town 9 87 0/1730 Forest 103 35 0/1740 Forest 90 18 0/1750 Town 36 65 3/2200 ScienceHouse 2 4 3 maru_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Pam",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 Trailer 15 4 2 pam_sit_down/1200 JojaMart 6 19 1/1600 Town 41 74 3 \"Strings\\TrickOrTreat:Pam\"/2200 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Penny",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 30 58 2 \"Strings\\TrickOrTreat:Penny\"/2100 Trailer 4 9 1 penny_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Pierre",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1540 Town 26 51 2 \"Strings\\TrickOrTreat:Pierre\"/2200 SeedShop 20 5 0/2300 SeedShop 24 4 1 pierre_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Robin",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "800 ScienceHouse 8 18 2/1600 Mountain 11 27 2 \"Strings\\TrickOrTreat:Robin\"/2200 ScienceHouse 16 5 0/2300 ScienceHouse 21 4 1 robin_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sam",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Forest 66 50 2/1500 Town 24 65 1 \"Strings\\TrickOrTreat:Sam\"/2200 SamHouse 22 13 1 sam_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sebastian",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "1030 SebastianRoom 9 4 3 sebastian_computer/1200 Mountain 57 33 1/1430 Town 26 65 3 \"Strings\\TrickOrTreat:Sebastian\"/2200 SebastianRoom 11 9 1 sebastian_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Shane",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 15 15 1/1600 Forest 100 35 1/1610 Town 39 72 2/2200 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Vincent",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "900 SamHouse 4 8 0/1100 SamHouse 2 15 2 vincent_play/1430 SamHouse 5 7 3/1550 Town 12 88 2/1600 Town 23 91 0/1610 Town 34 58 0/1620 Town 40 58 1/1630 Town 55 64 1/1640 Town 56 88 1/1650 Beach 48 12 0/1700 Beach 26 20 3/1710 Town 45 73 3/2000 SamHouse 8 22 3 vincent_sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Willy",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2/1600 Beach 24 20 1 \"Strings\\TrickOrTreat:Willy\"/2200 FishShop 5 4 2"
+      }
+    }
+  ]
+}

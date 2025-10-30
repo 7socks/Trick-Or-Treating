@@ -1,0 +1,700 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_AbigailCostume",
+      "FromFile": "assets/sprites/AbigailCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_AbigailCostume",
+      "FromFile": "assets/portraits/AbigailCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Abigail", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_AbigailCostume",
+          "Portrait": "Portraits/{{ModId}}_AbigailCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_AbigailCostume",
+          "Portrait": "Portraits/{{ModId}}_AbigailCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_AlexCostume",
+      "FromFile": "assets/sprites/AlexCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_AlexCostume",
+      "FromFile": "assets/portraits/AlexCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Alex", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_AlexCostume",
+          "Portrait": "Portraits/{{ModId}}_AlexCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_AlexCostume",
+          "Portrait": "Portraits/{{ModId}}_AlexCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_CarolineCostume",
+      "FromFile": "assets/sprites/CarolineCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_CarolineCostume",
+      "FromFile": "assets/portraits/CarolineCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Caroline", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_CarolineCostume",
+          "Portrait": "Portraits/{{ModId}}_CarolineCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_CarolineCostume",
+          "Portrait": "Portraits/{{ModId}}_CarolineCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_DemetriusCostume",
+      "FromFile": "assets/sprites/DemetriusCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_DemetriusCostume",
+      "FromFile": "assets/portraits/DemetriusCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Demetrius", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_DemetriusCostume",
+          "Portrait": "Portraits/{{ModId}}_DemetriusCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_DemetriusCostume",
+          "Portrait": "Portraits/{{ModId}}_DemetriusCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_ElliottCostume",
+      "FromFile": "assets/sprites/ElliottCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_ElliottCostume",
+      "FromFile": "assets/portraits/ElliottCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Elliott", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_ElliottCostume",
+          "Portrait": "Portraits/{{ModId}}_ElliottCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_ElliottCostume",
+          "Portrait": "Portraits/{{ModId}}_ElliottCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_EmilyCostume",
+      "FromFile": "assets/sprites/EmilyCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_EmilyCostume",
+      "FromFile": "assets/portraits/EmilyCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Emily", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_EmilyCostume",
+          "Portrait": "Portraits/{{ModId}}_EmilyCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_EmilyCostume",
+          "Portrait": "Portraits/{{ModId}}_EmilyCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_GusCostume",
+      "FromFile": "assets/sprites/GusCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_GusCostume",
+      "FromFile": "assets/portraits/GusCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Gus", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_GusCostume",
+          "Portrait": "Portraits/{{ModId}}_GusCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_GusCostume",
+          "Portrait": "Portraits/{{ModId}}_GusCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_HaleyCostume",
+      "FromFile": "assets/sprites/HaleyCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_HaleyCostume",
+      "FromFile": "assets/portraits/HaleyCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Haley", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_HaleyCostume",
+          "Portrait": "Portraits/{{ModId}}_HaleyCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_HaleyCostume",
+          "Portrait": "Portraits/{{ModId}}_HaleyCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_HarveyCostume",
+      "FromFile": "assets/sprites/HarveyCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_HarveyCostume",
+      "FromFile": "assets/portraits/HarveyCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Harvey", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_HarveyCostume",
+          "Portrait": "Portraits/{{ModId}}_HarveyCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_HarveyCostume",
+          "Portrait": "Portraits/{{ModId}}_HarveyCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_JasCostume",
+      "FromFile": "assets/sprites/JasCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_JasCostume",
+      "FromFile": "assets/portraits/JasCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Jas", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_JasCostume",
+          "Portrait": "Portraits/{{ModId}}_JasCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_JasCostume",
+          "Portrait": "Portraits/{{ModId}}_JasCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_JodiCostume",
+      "FromFile": "assets/sprites/JodiCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_JodiCostume",
+      "FromFile": "assets/portraits/JodiCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Jodi", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_JodiCostume",
+          "Portrait": "Portraits/{{ModId}}_JodiCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_JodiCostume",
+          "Portrait": "Portraits/{{ModId}}_JodiCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_LeahCostume",
+      "FromFile": "assets/sprites/LeahCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_LeahCostume",
+      "FromFile": "assets/portraits/LeahCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Leah", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_LeahCostume",
+          "Portrait": "Portraits/{{ModId}}_LeahCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_LeahCostume",
+          "Portrait": "Portraits/{{ModId}}_LeahCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_LewisCostume",
+      "FromFile": "assets/sprites/LewisCostumev2.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_LewisCostume",
+      "FromFile": "assets/portraits/LewisCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Lewis", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_LewisCostume",
+          "Portrait": "Portraits/{{ModId}}_LewisCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_LewisCostume",
+          "Portrait": "Portraits/{{ModId}}_LewisCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_MarnieCostume",
+      "FromFile": "assets/sprites/MarnieCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_MarnieCostume",
+      "FromFile": "assets/portraits/MarnieCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Marnie", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_MarnieCostume",
+          "Portrait": "Portraits/{{ModId}}_MarnieCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_MarnieCostume",
+          "Portrait": "Portraits/{{ModId}}_MarnieCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_MaruCostume",
+      "FromFile": "assets/sprites/MaruCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_MaruCostume",
+      "FromFile": "assets/portraits/MaruCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Maru", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_MaruCostume",
+          "Portrait": "Portraits/{{ModId}}_MaruCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_MaruCostume",
+          "Portrait": "Portraits/{{ModId}}_MaruCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_PamCostume",
+      "FromFile": "assets/sprites/PamCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_PamCostume",
+      "FromFile": "assets/portraits/PamCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Pam", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_PamCostume",
+          "Portrait": "Portraits/{{ModId}}_PamCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_PamCostume",
+          "Portrait": "Portraits/{{ModId}}_PamCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_PennyCostume",
+      "FromFile": "assets/sprites/PennyCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_PennyCostume",
+      "FromFile": "assets/portraits/PennyCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Penny", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_PennyCostume",
+          "Portrait": "Portraits/{{ModId}}_PennyCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_PennyCostume",
+          "Portrait": "Portraits/{{ModId}}_PennyCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_PierreCostume",
+      "FromFile": "assets/sprites/PierreCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_PierreCostume",
+      "FromFile": "assets/portraits/PierreCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Pierre", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_PierreCostume",
+          "Portrait": "Portraits/{{ModId}}_PierreCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_PierreCostume",
+          "Portrait": "Portraits/{{ModId}}_PierreCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_RobinCostume",
+      "FromFile": "assets/sprites/RobinCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_RobinCostume",
+      "FromFile": "assets/portraits/RobinCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Robin", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_RobinCostume",
+          "Portrait": "Portraits/{{ModId}}_RobinCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_RobinCostume",
+          "Portrait": "Portraits/{{ModId}}_RobinCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_SamCostume",
+      "FromFile": "assets/sprites/SamGhost.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_SamCostume",
+      "FromFile": "assets/portraits/SamGhostPortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Sam", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_SamCostume",
+          "Portrait": "Portraits/{{ModId}}_SamCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_SamCostume",
+          "Portrait": "Portraits/{{ModId}}_SamCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_SebastianCostume",
+      "FromFile": "assets/sprites/SebastianCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_SebastianCostume",
+      "FromFile": "assets/portraits/SebastianCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Sebastian", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_SebastianCostume",
+          "Portrait": "Portraits/{{ModId}}_SebastianCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_SebastianCostume",
+          "Portrait": "Portraits/{{ModId}}_SebastianCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_ShaneCostume",
+      "FromFile": "assets/sprites/ShaneCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_ShaneCostume",
+      "FromFile": "assets/portraits/ShaneCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Shane", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_ShaneCostume",
+          "Portrait": "Portraits/{{ModId}}_ShaneCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_ShaneCostume",
+          "Portrait": "Portraits/{{ModId}}_ShaneCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_VincentCostume",
+      "FromFile": "assets/sprites/VincentCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_VincentCostume",
+      "FromFile": "assets/portraits/VincentCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Vincent", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_VincentCostume",
+          "Portrait": "Portraits/{{ModId}}_VincentCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_VincentCostume",
+          "Portrait": "Portraits/{{ModId}}_VincentCostume"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_WillyCostume",
+      "FromFile": "assets/sprites/WillyCostume.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_WillyCostume",
+      "FromFile": "assets/portraits/WillyCostumePortrait.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Willy", "Appearance"],
+      "Entries": {
+        "{{ModId}}_TrickOrTreat": {
+          "Id": "{{ModId}}_TrickOrTreat",
+          "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
+          "Sprite": "Characters/{{ModId}}_WillyCostume",
+          "Portrait": "Portraits/{{ModId}}_WillyCostume"
+        },
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_WillyCostume",
+          "Portrait": "Portraits/{{ModId}}_WillyCostume"
+        }
+      }
+    }
+  ]
+}
