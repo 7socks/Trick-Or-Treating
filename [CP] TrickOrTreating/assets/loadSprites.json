@@ -20,13 +20,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_AbigailCostume",
           "Portrait": "Portraits/{{ModId}}_AbigailCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Abigail", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_AbigailCostume",
           "Portrait": "Portraits/{{ModId}}_AbigailCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -50,11 +63,24 @@
           "Sprite": "Characters/{{ModId}}_AlexCostume",
           "Portrait": "Portraits/{{ModId}}_AlexCostume"
         },
+        "When": {
+          "UseCostumesTrickOrTreating": "true"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Alex", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_AlexCostume",
           "Portrait": "Portraits/{{ModId}}_AlexCostume"
+        },
+        "When": {
+          "UseCostumesSpiritsEve": "true"
         }
       }
     },
@@ -78,13 +104,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_CarolineCostume",
           "Portrait": "Portraits/{{ModId}}_CarolineCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Caroline", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_CarolineCostume",
           "Portrait": "Portraits/{{ModId}}_CarolineCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -107,13 +146,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_DemetriusCostume",
           "Portrait": "Portraits/{{ModId}}_DemetriusCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Demetrius", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_DemetriusCostume",
           "Portrait": "Portraits/{{ModId}}_DemetriusCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -143,6 +195,25 @@
           "Sprite": "Characters/{{ModId}}_ElliottCostume",
           "Portrait": "Portraits/{{ModId}}_ElliottCostume"
         }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Elliott", "Appearance"],
+      "Entries": {
+        "{{ModId}}_SpiritsEve": {
+          "Id": "{{ModId}}_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Sprite": "Characters/{{ModId}}_ElliottCostume",
+          "Portrait": "Portraits/{{ModId}}_ElliottCostume"
+        }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -165,13 +236,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_EmilyCostume",
           "Portrait": "Portraits/{{ModId}}_EmilyCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Emily", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_EmilyCostume",
           "Portrait": "Portraits/{{ModId}}_EmilyCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -194,13 +278,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_GusCostume",
           "Portrait": "Portraits/{{ModId}}_GusCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Gus", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_GusCostume",
           "Portrait": "Portraits/{{ModId}}_GusCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -223,13 +320,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_HaleyCostume",
           "Portrait": "Portraits/{{ModId}}_HaleyCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Haley", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_HaleyCostume",
           "Portrait": "Portraits/{{ModId}}_HaleyCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -252,13 +362,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_HarveyCostume",
           "Portrait": "Portraits/{{ModId}}_HarveyCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Harvey", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_HarveyCostume",
           "Portrait": "Portraits/{{ModId}}_HarveyCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -281,13 +404,27 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_JasCostume",
           "Portrait": "Portraits/{{ModId}}_JasCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Jas", "Appearance"],
+      "Entries": {
+
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_JasCostume",
           "Portrait": "Portraits/{{ModId}}_JasCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -310,13 +447,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_JodiCostume",
           "Portrait": "Portraits/{{ModId}}_JodiCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Jodi", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_JodiCostume",
           "Portrait": "Portraits/{{ModId}}_JodiCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -339,13 +489,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_LeahCostume",
           "Portrait": "Portraits/{{ModId}}_LeahCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Leah", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_LeahCostume",
           "Portrait": "Portraits/{{ModId}}_LeahCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -368,13 +531,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_LewisCostume",
           "Portrait": "Portraits/{{ModId}}_LewisCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Lewis", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_LewisCostume",
           "Portrait": "Portraits/{{ModId}}_LewisCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -397,13 +573,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_MarnieCostume",
           "Portrait": "Portraits/{{ModId}}_MarnieCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Marnie", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_MarnieCostume",
           "Portrait": "Portraits/{{ModId}}_MarnieCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -426,13 +615,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_MaruCostume",
           "Portrait": "Portraits/{{ModId}}_MaruCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Maru", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_MaruCostume",
           "Portrait": "Portraits/{{ModId}}_MaruCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -455,13 +657,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_PamCostume",
           "Portrait": "Portraits/{{ModId}}_PamCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Pam", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_PamCostume",
           "Portrait": "Portraits/{{ModId}}_PamCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -484,13 +699,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_PennyCostume",
           "Portrait": "Portraits/{{ModId}}_PennyCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Penny", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_PennyCostume",
           "Portrait": "Portraits/{{ModId}}_PennyCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -513,13 +741,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_PierreCostume",
           "Portrait": "Portraits/{{ModId}}_PierreCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Pierre", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_PierreCostume",
           "Portrait": "Portraits/{{ModId}}_PierreCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -542,13 +783,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_RobinCostume",
           "Portrait": "Portraits/{{ModId}}_RobinCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Robin", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_RobinCostume",
           "Portrait": "Portraits/{{ModId}}_RobinCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -571,13 +825,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_SamCostume",
           "Portrait": "Portraits/{{ModId}}_SamCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Sam", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_SamCostume",
           "Portrait": "Portraits/{{ModId}}_SamCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -600,13 +867,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_SebastianCostume",
           "Portrait": "Portraits/{{ModId}}_SebastianCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Sebastian", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_SebastianCostume",
           "Portrait": "Portraits/{{ModId}}_SebastianCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -629,13 +909,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_ShaneCostume",
           "Portrait": "Portraits/{{ModId}}_ShaneCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Shane", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_ShaneCostume",
           "Portrait": "Portraits/{{ModId}}_ShaneCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -658,13 +951,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_VincentCostume",
           "Portrait": "Portraits/{{ModId}}_VincentCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Vincent", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_VincentCostume",
           "Portrait": "Portraits/{{ModId}}_VincentCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     },
     {
@@ -687,13 +993,26 @@
           "Condition": "IS_PASSIVE_FESTIVAL_TODAY {{ModId}}_TrickOrTreating",
           "Sprite": "Characters/{{ModId}}_WillyCostume",
           "Portrait": "Portraits/{{ModId}}_WillyCostume"
-        },
+        }
+      },
+      "When": {
+        "UseCostumesTrickOrTreating": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": ["Willy", "Appearance"],
+      "Entries": {
         "{{ModId}}_SpiritsEve": {
           "Id": "{{ModId}}_SpiritsEve",
           "Condition": "IS_EVENT festival_fall27",
           "Sprite": "Characters/{{ModId}}_WillyCostume",
           "Portrait": "Portraits/{{ModId}}_WillyCostume"
         }
+      },
+      "When": {
+        "UseCostumesSpiritsEve": "true"
       }
     }
   ]
