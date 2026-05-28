@@ -1,5 +1,22 @@
 {
   "Format": "2.6.0",
+  "ConfigSchema": {
+    "UseCostumesSpiritsEve": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Description": "Selects whether NPCs use their costume sprites and portraits at the Spirits Eve Festival."
+    },
+    "UseCostumesTrickOrTreating": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Description": "Selects whether NPCs use their costume sprites and portraits on Fall 28."
+    },
+    "UseMapReplacements": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Description": "Selects whether the mod's map data is used during the Trick-or-Treating festival. This also removes Pierre's candy shop. Turn this off to allow compatibility with NPC pathing for non-vanilla locations."
+    }
+  },
   "Changes": [
     {
       "LogName": "Patch festival data",
@@ -20,6 +37,33 @@
             "Town": "{{ModId}}_TownTrickOrTreat"
           }
         }
+      },
+      "When": {
+        "UseMapReplacements": "true"
+      }
+    },
+    {
+      "LogName": "Patch festival data - vanilla maps",
+      "Action": "EditData",
+      "Target": "Data/PassiveFestivals",
+      "Entries": {
+        "{{ModId}}_TrickOrTreating": {
+          "DisplayName": "Trick-or-Treating",
+          "Season": "Fall",
+          "StartDay": 28,
+          "EndDay": 28,
+          "StartTime": 1600,
+          "StartMessage": "Trick-or-Treating has begun in Pelican Town!",
+          "MapReplacements": {
+            "Beach": "Beach",
+            "Forest": "Forest",
+            "Mountain": "Mountain",
+            "Town": "Town"
+          }
+        }
+      },
+      "When": {
+        "UseMapReplacements": "false"
       }
     },
 
@@ -197,18 +241,18 @@
           "Trigger": "DayEnding",
           "MarkActionApplied": false,
           "Actions": [
-            "RemoveMail TrickOrTreat_Caroline",
-            "RemoveMail TrickOrTreat_Elliott",
-            "RemoveMail TrickOrTreat_Emily",
-            "RemoveMail TrickOrTreat_Evelyn",
-            "RemoveMail TrickOrTreat_Gus",
-            "RemoveMail TrickOrTreat_Jodi",
-            "RemoveMail TrickOrTreat_Harvey",
-            "RemoveMail TrickOrTreat_Leah",
-            "RemoveMail TrickOrTreat_Lewis",
-            "RemoveMail TrickOrTreat_Marnie",
-            "RemoveMail TrickOrTreat_Robin",
-            "RemoveMail TrickOrTreat_Willy"
+            "RemoveMail Current TrickOrTreat_Caroline",
+            "RemoveMail Current TrickOrTreat_Elliott",
+            "RemoveMail Current TrickOrTreat_Emily",
+            "RemoveMail Current TrickOrTreat_Evelyn",
+            "RemoveMail Current TrickOrTreat_Gus",
+            "RemoveMail Current TrickOrTreat_Jodi",
+            "RemoveMail Current TrickOrTreat_Harvey",
+            "RemoveMail Current TrickOrTreat_Leah",
+            "RemoveMail Current TrickOrTreat_Lewis",
+            "RemoveMail Current TrickOrTreat_Marnie",
+            "RemoveMail Current TrickOrTreat_Robin",
+            "RemoveMail Current TrickOrTreat_Willy"
           ]
         }
       }
