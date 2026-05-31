@@ -1343,6 +1343,51 @@
           "ChanceForClay": 0.03
         }
       }
+    },
+
+    {
+      "LogName": "Patch vanilla town map",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/maps/Town-TrickOrTreat.tmx",
+      "FromArea": {
+        "X": 25,
+        "Y": 48,
+        "Width": 4,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 25,
+        "Y": 48,
+        "Width": 4,
+        "Height": 5
+      },
+      "When": {
+        "UseMapReplacements": "false",
+        "Season": "Fall",
+        "Day": 28
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "MapTiles": [
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 26,
+            "Y": 52
+          },
+          "SetProperties": {
+            "Action": "OpenShop {{ModId}}_CandyShop down 1600 2200 26 51 1 1"
+          }
+        }
+      ],
+      "When": {
+        "UseMapReplacements": "false",
+        "Season": "Fall",
+        "Day": 28
+      }
     }
   ]
 }
