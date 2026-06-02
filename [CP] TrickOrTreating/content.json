@@ -10,40 +10,11 @@
       "Default": "true",
       "AllowValues": "true, false",
       "Description": "Selects whether NPCs use their costume sprites and portraits on Fall 28."
-    },
-    "UseMapReplacements": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Description": "Selects whether the mod's map data is used during the Trick-or-Treating festival. This also removes Pierre's candy shop. Turn this off to allow compatibility with NPC pathing for non-vanilla locations."
     }
   },
   "Changes": [
     {
       "LogName": "Patch festival data",
-      "Action": "EditData",
-      "Target": "Data/PassiveFestivals",
-      "Entries": {
-        "{{ModId}}_TrickOrTreating": {
-          "DisplayName": "Trick-or-Treating",
-          "Season": "Fall",
-          "StartDay": 28,
-          "EndDay": 28,
-          "StartTime": 1600,
-          "StartMessage": "Trick-or-Treating has begun in Pelican Town!",
-          "MapReplacements": {
-            "Beach": "{{ModId}}_BeachTrickOrTreat",
-            "Forest": "{{ModId}}_ForestTrickOrTreat",
-            "Mountain": "{{ModId}}_MountainTrickOrTreat",
-            "Town": "{{ModId}}_TownTrickOrTreat"
-          }
-        }
-      },
-      "When": {
-        "UseMapReplacements": "true"
-      }
-    },
-    {
-      "LogName": "Patch festival data - vanilla maps",
       "Action": "EditData",
       "Target": "Data/PassiveFestivals",
       "Entries": {
@@ -61,9 +32,6 @@
             "Town": "Town"
           }
         }
-      },
-      "When": {
-        "UseMapReplacements": "false"
       }
     },
 
@@ -114,96 +82,7 @@
         }
       }
     },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/{{ModId}}_TownTrickOrTreat",
-      "MapTiles": [
-        {
-          "Layer": "Buildings",
-          "Position": {
-            "X": 26,
-            "Y": 52
-          },
-          "SetProperties": {
-            "Action": "OpenShop {{ModId}}_CandyShop down 1600 2200 26 51 1 1"
-          }
-        }
-      ]
-    },
 
-    {
-      "Action": "Load",
-      "Target": "Maps/{{ModId}}_BeachTrickOrTreat",
-      "FromFile": "assets/maps/Beach-TrickOrTreat.tmx"
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/{{ModId}}_ForestTrickOrTreat",
-      "FromFile": "assets/maps/Forest-TrickOrTreat.tmx"
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/{{ModId}}_MountainTrickOrTreat",
-      "FromFile": "assets/maps/Mountain-TrickOrTreat.tmx"
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/{{ModId}}_TownTrickOrTreat",
-      "FromFile": "assets/maps/Town-TrickOrTreat.tmx"
-    },
-
-    {
-      "LogName": "Lantern lights - Beach",
-      "Action": "EditMap",
-      "Target": "Maps/{{ModId}}_BeachTrickOrTreat",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": ["MapProperties", "Light"],
-          "Value": "40 1 1 37 3 1 41 5 1 42 9 1 46 14 1 43 14 1 37 8 1 39 13 1 36 15 1 31 13 1 34 11 1 32 18 1 26 15 1 23 17 1",
-          "Delimiter": " "
-        }
-      ]
-    },
-    {
-      "LogName": "Lantern lights - Forest",
-      "Action": "EditMap",
-      "Target": "Maps/{{ModId}}_ForestTrickOrTreat",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": ["MapProperties", "Light"],
-          "Value": "86 18 1 91 19 1 85 21 1 92 21 1 87 24 1 90 26 1 92 30 1 94 34 1 98 36 1 106 35 1 97 31 1 96 27 1 97 23 1 100 26 1 104 24 1 107 27 1 111 24 1 113 26 1 115 23 1",
-          "Delimiter": " "
-        }
-      ]
-    },
-    {
-      "LogName": "Lantern lights - Mountain",
-      "Action": "EditMap",
-      "Target": "Maps/{{ModId}}_MountainTrickOrTreat",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": ["MapProperties", "Light"],
-          "Value": "13 37 1 17 37 1 12 34 1 16 33 1 15 29 1 9 29 1",
-          "Delimiter": " "
-        }
-      ]
-    },
-    {
-      "LogName": "Lantern lights - Town",
-      "Action": "EditMap",
-      "Target": "Maps/{{ModId}}_TownTrickOrTreat",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": ["MapProperties", "Light"],
-          "Value": "7 89 1 2 92 1 11 92 1 15 89 1 18 92 1 26 92 1 30 90 1 30 84 1 27 82 1 30 80 1 37 80 1 27 78 1 24 75 1 21 72 1 33 75 1 38 75 1 21 72 1 22 62 1 24 57 1 28 56 1 37 64 1 40 62 1 48 61 1 50 66 1 47 68 1 56 66 1 53 73 1 49 76 1 50 80 1 54 79 1 53 84 1 56 91 1 53 94 1 56 96 1 53 98 1 56 103 1 52 104 1 50 58 1 50 55 1 50 39 1 47 36 1 53 37 1 54 33 1 57 35 1 60 33 1 60 28 1 66 32 1 70 30 1 66 27 1 72 27 1 69 22 1 74 23 1 75 20 1 80 23 1 80 18 1 77 15 1 81 13 1 78 10 1 82 8 1 79 7 1 80 3 1 60 89 1 47 48 1 83 0 1",
-          "Delimiter": " "
-        }
-      ]
-    },
 
     {
       "Action": "Include",
