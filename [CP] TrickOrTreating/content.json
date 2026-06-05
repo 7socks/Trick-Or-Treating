@@ -10,6 +10,11 @@
       "Default": "true",
       "AllowValues": "true, false",
       "Description": "Selects whether NPCs use their costume sprites and portraits on Fall 28."
+    },
+    "MinimalMapChanges": {
+      "Default": "false",
+      "AllowValues": "true, false",
+      "Description": "Only include map changes required for functionality"
     }
   },
   "Changes": [

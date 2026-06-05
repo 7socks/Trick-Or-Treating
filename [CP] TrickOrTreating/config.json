@@ -1,4 +1,5 @@
 {
   "UseCostumesSpiritsEve": "true",
-  "UseCostumesTrickOrTreating": "true"
+  "UseCostumesTrickOrTreating": "true",
+  "MinimalMapChanges": "false"
 }
