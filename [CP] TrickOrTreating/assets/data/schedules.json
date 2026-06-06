@@ -207,7 +207,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC: Name}}",
       "Entries": {
-        "{{ModId}}_TrickOrTreating": "1500 Town 30 56 0/1600 Town 33 58 1/1610 Town 42 60 0/1620 Town 55 64 1/1630 Town 44 73 3/1640 Town 56 89 1/1650 Beach 48 13 0/1700 Beach 26 20 3/1710 Town 24 91 0/1720 Town 10 87 3/1730 Forest 103 35 0/1740 Forest 89 18 1/1750 Town 31 56 0"
+        "{{ModId}}_TrickOrTreating": "1500 Town 30 56 0/1600 Town 33 58 1/1610 Town 42 60 0/1620 Town 55 64 1/1630 Town 44 73 3/1640 Town 56 89 1/1650 Beach 48 13 0/1700 Beach 26 20 3/1710 Town 24 91 0/1720 Town 10 87 3/1730 Forest 103 35 0/1740 Forest 89 18 1/1750 Town 30 56 0"
       },
       "When": {
         "HasMod": "Candidus42.LittleNPCs"
