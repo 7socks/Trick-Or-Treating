@@ -46,7 +46,14 @@
       "Target": "Data/Shops",
       "Entries": {
         "{{ModId}}_CandyShop": {
-          "Owners": [{ "Name": "Pierre" }],
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Condition": "!TIME 1600 2200",
+              "ClosedMessage": "Candy stand open 4PM to 10PM"
+            },
+            { "Name": "Pierre" }
+          ],
           "Items": [
             {
               "ID": "CandyCorn",

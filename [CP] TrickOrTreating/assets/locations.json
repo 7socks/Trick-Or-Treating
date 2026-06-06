@@ -180,7 +180,7 @@
             "Y": 52
           },
           "SetProperties": {
-            "Action": "OpenShop {{ModId}}_CandyShop down 1600 2200 26 51 1 1"
+            "Action": "OpenShop {{ModId}}_CandyShop down 600 2600 26 51 1 1"
           }
         }
       ],
