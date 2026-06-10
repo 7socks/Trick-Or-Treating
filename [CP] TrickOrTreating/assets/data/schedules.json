@@ -175,7 +175,7 @@
       "Action": "EditData",
       "Target": "Characters/schedules/Shane",
       "Entries": {
-        "{{ModId}}_TrickOrTreating": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 15 15 1/1600 Forest 100 35 1/1610 Town 39 72 2/2200 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep"
+        "{{ModId}}_TrickOrTreating": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 15 15 1/1600 Forest 100 35 1/1610 Town 39 72 2 \"Strings\\TrickOrTreat:Shane\"/2200 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep"
       }
     },
     {
