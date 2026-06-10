@@ -1,7 +1,7 @@
 {
   "Name": "Trick Or Treating",
   "Author": "7socks",
-  "Version": "1.0.1",
+  "Version": "1.1.0",
   "Description": "Adds a trick-or-treating festival on Fall 28.",
   "UniqueID": "7socks.TrickOrTreat",
   "UpdateKeys": [ "Nexus: 38960"],

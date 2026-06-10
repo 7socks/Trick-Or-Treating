@@ -14,6 +14,12 @@ It's the last day of fall, All Hallow's Eve in Stardew Valley... Pelican Town is
 - Content Patcher
 
 ## Mod Compatibility
-This mod may be incompatible with other mods, especially those which add new NPCs or locations. This should only affect gameplay on the modded festival days (Fall 27 & 28).
+As of version 1.1.0, this mod should be baseline compatible with most other mods, including those which make changes to maps and/or sprites. See Configuration for more details.
 
-Due to how the game handles alternate maps for passive festival days, map edits from other mods will not be applied to this mod's festival maps on Fall 28. This includes warp tiles, which can make additional modded locations inaccessible. The affected locations are the Forest, Town, Beach, and Mountain.
+Compatible with content packs using LittleNPCs. Your children will follow similar schedules to Jas and Vincent during the Trick-Or-Treating festival. It is recommended that you turn off child's curfew or set it to 10pm (2200) or later.
+
+## Configuration
+Edit the "config.json" file to change the following configuration options.
+- **UseCostumesSpiritsEve**: Selects whether NPCs use this mod's costume sprites and portraits during the Spirits Eve festival. Set to *false* to disable costumes. Default *true*.
+- **UseCostumesTrickOrTreating**: Same as above, but applies to the entire day of Fall 28. Default *true*.
+- **MinimalMapChanges**: Selects whether to include all of this mod's map changes or only those required for functionality. You may wish to use this if you find that decorations clash with another mod's objects or textures. Set to *true* to limit map changes. Default *false*.
