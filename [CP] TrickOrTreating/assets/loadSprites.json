@@ -514,7 +514,7 @@
     {
       "Action": "Load",
       "Target": "Characters/{{ModId}}_LewisCostume",
-      "FromFile": "assets/sprites/LewisCostumev2.png"
+      "FromFile": "assets/sprites/LewisCostume.png"
     },
     {
       "Action": "Load",
